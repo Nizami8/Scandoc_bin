@@ -1,0 +1,35 @@
+{
+  "build_id": "20180109-100352/master@cc06a123", 
+  "build_timestamp": "2018-01-09T10:03:52.584923", 
+  "name": "tcpuart", 
+  "parts": {
+    "boot": {
+      "addr": 0, 
+      "cs_sha1": "b5c7f2a48bb47b420ed1bbbe7f5002ba0df6bbcc", 
+      "src": "0x00000.bin", 
+      "update": true
+    }, 
+    "boot_cfg": {
+      "addr": 4096, 
+      "cs_sha1": "e0c66649d1434eca3435033a32634cb90cef0f31", 
+      "src": "0x01000.bin"
+    }, 
+    "fs": {
+      "addr": 917504, 
+      "cs_sha1": "b08421fe72655228925b6fbb6d3b838e7c05775a", 
+      "src": "0xe0000.bin"
+    }, 
+    "fw": {
+      "addr": 69632, 
+      "cs_sha1": "08b287d6950fc62f3234616366e3bad388506fac", 
+      "src": "0x11000.bin"
+    }, 
+    "rf_cal_data": {
+      "addr": 65536, 
+      "fill": 255, 
+      "size": 4096
+    }
+  }, 
+  "platform": "esp8266", 
+  "version": "20180109100352"
+}
